@@ -1,0 +1,29 @@
+html {
+  height: 100%;
+}
+body {
+  height: 100%;
+  margin: 0;
+}
+.container {
+  width: 100%;
+  height: 100%;
+  display: flex;
+}
+#viewer {
+  height: 100%;
+  flex: 1;
+  overflow: auto;
+}
+#menu {
+  width: 10rem;
+}
+.menu-element {
+  background: #f1f5f9;
+  padding: 1rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-family: monospace;
+  margin: 0.5rem;
+}
